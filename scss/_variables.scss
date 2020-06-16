@@ -1,0 +1,15 @@
+@import './config';
+
+$primary-blue: #00BCFF;
+$dark-blue: #00005E;
+$red: #FF0052;
+$light-blue: #D1F3FE;
+$footer-bg: #212121;
+$footer-light: #6A6A6A;
+
+
+@mixin shadow {
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(39,39,39,0.53);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(39,39,39,0.53);
+    box-shadow: 10px 10px 5px 0px rgba(39,39,39,0.53);
+}
