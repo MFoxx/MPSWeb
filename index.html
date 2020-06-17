@@ -80,13 +80,13 @@
                     <div class="image">
                         <img src="./img/janka.png" alt="Jana Velická - Mladí progresívci">
                     </div>
-                    <h3>Janka Velikcá</h3>
+                    <h3>Janka Velická</h3>
                     <div class="divider"></div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dolor dolorum voluptas at voluptates fuga
                         commodi quibusdam in dolores repudiandae.</p>
                 </div>
                 <!-- Domonik -->
-                <div class="card">
+                <div class="card" id='lastCard'>
                     <div class="image">
                         <img src="./img/dom.png" alt="Dominik Devečka - Mladí progresívci">
                     </div>
@@ -98,8 +98,81 @@
             </div>
         </div>
     </section>
+
     <!-- SECTION IV - Pridajte sa -->
+    <section class="sectionIV">
+        <div class="title">
+            <h2>Pridajte sa k nám</h2>
+            <div class="divider"></div>
+        </div>
+        <div class="contact">
+            <form action="POST">
+                <div class="row">
+                    <div class="item">
+                        <label for="name">Meno</label>
+                        <input type="text" name='name'>
+                    </div>
+                    <div class="item">
+                        <label for="surname">Priezvisko</label>
+                        <input type="text" name='surname'>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="item">
+                        <label for="email">Email</label>
+                        <input type="email" name='email'>
+                    </div>
+                    <div class="item">
+                        <label for="date">Dátum narodenia</label>
+                        <input type="date" name='date' id='date' max='2005-01-01'>
+                    </div>
+                </div>
+                <div class="item">
+                    <label for="motivacny">Motivačný list</label>
+                    <textarea name="motivacny"></textarea>
+                </div>
+                <button type="submit">
+                    Odoslať
+                </button>
+            </form>
+
+            <i class="far fa-file-alt"></i>
+        </div>
+    </section>
     <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="left">
+                <h2>Mladí progresívci</h2>
+                <div class="divider"></div>
+                <div class="social">
+                <div class="icon">
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="icon">
+                    <a href=""><i class="fab fa-facebook-square"></i></a>
+                </div>
+                <div class="icon">
+                    <a href=""><i class="fas fa-user-friends"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <p>Designed by <a href='https://www.ggstudio.digital'>G&G Studio</a></p>
+            <div class="social">
+                <div class="icon">
+                    <a href=""><i class="fa fa-globe"></i></a>
+                </div>
+                <div class="icon">
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="icon">
+                    <a href=""><i class="fab fa-behance"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </footer>
 
     <!-- SCRIPTS -->
     <script src="./js/main.js"></script>

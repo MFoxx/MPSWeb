@@ -4,6 +4,7 @@
 
 .sectionIII {
     background-color: $light-blue;
+    padding-bottom: 40px;
 
         h2 {
             text-transform: uppercase;
@@ -63,22 +64,31 @@
             font-size: 20px;
         }
     }
+
+    #lastCard {
+        margin-bottom: 0;
+    }
+
+}
+
+.placeholder {
+    height: 50px;
+    background-color: $light-blue;
 }
 
 
-
-@media only screen and (min-width: 720px) {
+@media only screen and (min-width: 800px) {
     .sectionIII {
         .title {
             h2 {
                 font-size: 60px;
                 text-align: left;
-                margin-left: 45px;
+                margin-left: $title-margin;
             }
             .divider {
                 text-align: left;
                 margin: 0;
-                margin-left: 45px;
+                margin-left: $title-margin;
             }
         }
         
