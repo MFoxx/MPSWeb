@@ -38,10 +38,18 @@
   src: url("./../css/fonts/Geomanist-Ultra.eot"), url("./../css/fonts/Geomanist-Ultra.woff2") format("woff2"), url("./../css/fonts/Geomanist-Ultra.woff") format("woff"), url("./../css/fonts/Geomanist-Ultra.ttf") format("truetype");
 }
 
-html {
+body {
+  width: 100%;
+  height: 100%;
   margin: 0;
   padding: 0;
   font-family: "GeomanistRegular", arial, sans-serif;
+}
+
+.divider {
+  height: 4px;
+  width: 60px;
+  background: #FF0052;
 }
 
 @font-face {
@@ -84,9 +92,314 @@ html {
   src: url("./../css/fonts/Geomanist-Ultra.eot"), url("./../css/fonts/Geomanist-Ultra.woff2") format("woff2"), url("./../css/fonts/Geomanist-Ultra.woff") format("woff"), url("./../css/fonts/Geomanist-Ultra.ttf") format("truetype");
 }
 
-html {
+body {
+  width: 100%;
+  height: 100%;
   margin: 0;
   padding: 0;
   font-family: "GeomanistRegular", arial, sans-serif;
+}
+
+.divider {
+  height: 4px;
+  width: 60px;
+  background: #FF0052;
+}
+
+@font-face {
+  font-family: 'GeomanistBlack';
+  src: url("./../css/fonts/Geomanist-Black.eot"), url("./../css/fonts/Geomanist-Black.woff2") format("woff2"), url("./../css/fonts/Geomanist-Black.woff") format("woff"), url("./../css/fonts/Geomanist-Black.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'GeomanistBold';
+  src: url("./../css/fonts/Geomanist-Bold.eot"), url("./../css/fonts/Geomanist-Bold.woff2") format("woff2"), url("./../css/fonts/Geomanist-Bold.woff") format("woff"), url("./../css/fonts/Geomanist-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'GeomanistBook';
+  src: url("./../css/fonts/Geomanist-Book.eot"), url("./../css/fonts/Geomanist-Book.woff2") format("woff2"), url("./../css/fonts/Geomanist-Book.woff") format("woff"), url("./../css/fonts/Geomanist-Book.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'GeomanistExtraLight';
+  src: url("./../css/fonts/Geomanist-ExtraLight.eot"), url("./../css/fonts/Geomanist-ExtraLight.woff2") format("woff2"), url("./../css/fonts/Geomanist-ExtraLight.woff") format("woff"), url("./../css/fonts/Geomanist-ExtraLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'GeomanistLight';
+  src: url("./../css/fonts/Geomanist-Light.eot"), url("./../css/fonts/Geomanist-Light.woff2") format("woff2"), url("./../css/fonts/Geomanist-Light.woff") format("woff"), url("./../css/fonts/Geomanist-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'GeomanistMedium';
+  src: url("./../css/fonts/Geomanist-Medium.eot"), url("./../css/fonts/Geomanist-Medium.woff2") format("woff2"), url("./../css/fonts/Geomanist-Medium.woff") format("woff"), url("./../css/fonts/Geomanist-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'GeomanistRegular';
+  src: url("./../css/fonts/Geomanist-Regular.eot"), url("./../css/fonts/Geomanist-Regular.woff2") format("woff2"), url("./../css/fonts/Geomanist-Regular.woff") format("woff"), url("./../css/fonts/Geomanist-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'GeomanisUltra';
+  src: url("./../css/fonts/Geomanist-Ultra.eot"), url("./../css/fonts/Geomanist-Ultra.woff2") format("woff2"), url("./../css/fonts/Geomanist-Ultra.woff") format("woff"), url("./../css/fonts/Geomanist-Ultra.ttf") format("truetype");
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "GeomanistRegular", arial, sans-serif;
+}
+
+.divider {
+  height: 4px;
+  width: 60px;
+  background: #FF0052;
+}
+
+.sectionII {
+  background: #00005E;
+  text-align: center;
+}
+
+.sectionII h2 {
+  margin: 0;
+  font-family: "GeomanistBold", arial, sans-serif;
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+}
+
+.sectionII .divider {
+  margin: auto;
+  text-align: center;
+}
+
+.sectionII p {
+  padding-top: 15px;
+  color: #fff;
+  max-width: 250px;
+  text-align: center;
+  margin: auto;
+}
+
+.sectionII .img {
+  max-width: 320px;
+  margin: auto;
+}
+
+.sectionII .img img {
+  width: 100%;
+  padding: 20px 0;
+}
+
+@media only screen and (min-width: 500px) {
+  .sectionII h2 {
+    font-size: 50px;
+  }
+  .sectionII p {
+    max-width: 400px;
+  }
+  .sectionII .img {
+    max-width: 460px;
+  }
+}
+
+@media only screen and (min-width: 825px) {
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .container .text {
+    margin: auto;
+    width: 50%;
+  }
+  .container .text h2 {
+    margin-top: -20px;
+  }
+  .container .text P {
+    padding-top: 0;
+    margin-top: 20px;
+  }
+  .container .img {
+    max-width: 50%;
+  }
+  .container .img img {
+    width: 90%;
+    padding: 20px;
+  }
+}
+
+@font-face {
+  font-family: 'GeomanistBlack';
+  src: url("./../css/fonts/Geomanist-Black.eot"), url("./../css/fonts/Geomanist-Black.woff2") format("woff2"), url("./../css/fonts/Geomanist-Black.woff") format("woff"), url("./../css/fonts/Geomanist-Black.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'GeomanistBold';
+  src: url("./../css/fonts/Geomanist-Bold.eot"), url("./../css/fonts/Geomanist-Bold.woff2") format("woff2"), url("./../css/fonts/Geomanist-Bold.woff") format("woff"), url("./../css/fonts/Geomanist-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'GeomanistBook';
+  src: url("./../css/fonts/Geomanist-Book.eot"), url("./../css/fonts/Geomanist-Book.woff2") format("woff2"), url("./../css/fonts/Geomanist-Book.woff") format("woff"), url("./../css/fonts/Geomanist-Book.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'GeomanistExtraLight';
+  src: url("./../css/fonts/Geomanist-ExtraLight.eot"), url("./../css/fonts/Geomanist-ExtraLight.woff2") format("woff2"), url("./../css/fonts/Geomanist-ExtraLight.woff") format("woff"), url("./../css/fonts/Geomanist-ExtraLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'GeomanistLight';
+  src: url("./../css/fonts/Geomanist-Light.eot"), url("./../css/fonts/Geomanist-Light.woff2") format("woff2"), url("./../css/fonts/Geomanist-Light.woff") format("woff"), url("./../css/fonts/Geomanist-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'GeomanistMedium';
+  src: url("./../css/fonts/Geomanist-Medium.eot"), url("./../css/fonts/Geomanist-Medium.woff2") format("woff2"), url("./../css/fonts/Geomanist-Medium.woff") format("woff"), url("./../css/fonts/Geomanist-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'GeomanistRegular';
+  src: url("./../css/fonts/Geomanist-Regular.eot"), url("./../css/fonts/Geomanist-Regular.woff2") format("woff2"), url("./../css/fonts/Geomanist-Regular.woff") format("woff"), url("./../css/fonts/Geomanist-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'GeomanisUltra';
+  src: url("./../css/fonts/Geomanist-Ultra.eot"), url("./../css/fonts/Geomanist-Ultra.woff2") format("woff2"), url("./../css/fonts/Geomanist-Ultra.woff") format("woff"), url("./../css/fonts/Geomanist-Ultra.ttf") format("truetype");
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "GeomanistRegular", arial, sans-serif;
+}
+
+.divider {
+  height: 4px;
+  width: 60px;
+  background: #FF0052;
+}
+
+@font-face {
+  font-family: 'GeomanistBlack';
+  src: url("./../css/fonts/Geomanist-Black.eot"), url("./../css/fonts/Geomanist-Black.woff2") format("woff2"), url("./../css/fonts/Geomanist-Black.woff") format("woff"), url("./../css/fonts/Geomanist-Black.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'GeomanistBold';
+  src: url("./../css/fonts/Geomanist-Bold.eot"), url("./../css/fonts/Geomanist-Bold.woff2") format("woff2"), url("./../css/fonts/Geomanist-Bold.woff") format("woff"), url("./../css/fonts/Geomanist-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'GeomanistBook';
+  src: url("./../css/fonts/Geomanist-Book.eot"), url("./../css/fonts/Geomanist-Book.woff2") format("woff2"), url("./../css/fonts/Geomanist-Book.woff") format("woff"), url("./../css/fonts/Geomanist-Book.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'GeomanistExtraLight';
+  src: url("./../css/fonts/Geomanist-ExtraLight.eot"), url("./../css/fonts/Geomanist-ExtraLight.woff2") format("woff2"), url("./../css/fonts/Geomanist-ExtraLight.woff") format("woff"), url("./../css/fonts/Geomanist-ExtraLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'GeomanistLight';
+  src: url("./../css/fonts/Geomanist-Light.eot"), url("./../css/fonts/Geomanist-Light.woff2") format("woff2"), url("./../css/fonts/Geomanist-Light.woff") format("woff"), url("./../css/fonts/Geomanist-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'GeomanistMedium';
+  src: url("./../css/fonts/Geomanist-Medium.eot"), url("./../css/fonts/Geomanist-Medium.woff2") format("woff2"), url("./../css/fonts/Geomanist-Medium.woff") format("woff"), url("./../css/fonts/Geomanist-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'GeomanistRegular';
+  src: url("./../css/fonts/Geomanist-Regular.eot"), url("./../css/fonts/Geomanist-Regular.woff2") format("woff2"), url("./../css/fonts/Geomanist-Regular.woff") format("woff"), url("./../css/fonts/Geomanist-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'GeomanisUltra';
+  src: url("./../css/fonts/Geomanist-Ultra.eot"), url("./../css/fonts/Geomanist-Ultra.woff2") format("woff2"), url("./../css/fonts/Geomanist-Ultra.woff") format("woff"), url("./../css/fonts/Geomanist-Ultra.ttf") format("truetype");
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "GeomanistRegular", arial, sans-serif;
+}
+
+.divider {
+  height: 4px;
+  width: 60px;
+  background: #FF0052;
+}
+
+@font-face {
+  font-family: 'GeomanistBlack';
+  src: url("./../css/fonts/Geomanist-Black.eot"), url("./../css/fonts/Geomanist-Black.woff2") format("woff2"), url("./../css/fonts/Geomanist-Black.woff") format("woff"), url("./../css/fonts/Geomanist-Black.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'GeomanistBold';
+  src: url("./../css/fonts/Geomanist-Bold.eot"), url("./../css/fonts/Geomanist-Bold.woff2") format("woff2"), url("./../css/fonts/Geomanist-Bold.woff") format("woff"), url("./../css/fonts/Geomanist-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'GeomanistBook';
+  src: url("./../css/fonts/Geomanist-Book.eot"), url("./../css/fonts/Geomanist-Book.woff2") format("woff2"), url("./../css/fonts/Geomanist-Book.woff") format("woff"), url("./../css/fonts/Geomanist-Book.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'GeomanistExtraLight';
+  src: url("./../css/fonts/Geomanist-ExtraLight.eot"), url("./../css/fonts/Geomanist-ExtraLight.woff2") format("woff2"), url("./../css/fonts/Geomanist-ExtraLight.woff") format("woff"), url("./../css/fonts/Geomanist-ExtraLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'GeomanistLight';
+  src: url("./../css/fonts/Geomanist-Light.eot"), url("./../css/fonts/Geomanist-Light.woff2") format("woff2"), url("./../css/fonts/Geomanist-Light.woff") format("woff"), url("./../css/fonts/Geomanist-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'GeomanistMedium';
+  src: url("./../css/fonts/Geomanist-Medium.eot"), url("./../css/fonts/Geomanist-Medium.woff2") format("woff2"), url("./../css/fonts/Geomanist-Medium.woff") format("woff"), url("./../css/fonts/Geomanist-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'GeomanistRegular';
+  src: url("./../css/fonts/Geomanist-Regular.eot"), url("./../css/fonts/Geomanist-Regular.woff2") format("woff2"), url("./../css/fonts/Geomanist-Regular.woff") format("woff"), url("./../css/fonts/Geomanist-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'GeomanisUltra';
+  src: url("./../css/fonts/Geomanist-Ultra.eot"), url("./../css/fonts/Geomanist-Ultra.woff2") format("woff2"), url("./../css/fonts/Geomanist-Ultra.woff") format("woff"), url("./../css/fonts/Geomanist-Ultra.ttf") format("truetype");
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "GeomanistRegular", arial, sans-serif;
+}
+
+.divider {
+  height: 4px;
+  width: 60px;
+  background: #FF0052;
 }
 /*# sourceMappingURL=main.css.map */
