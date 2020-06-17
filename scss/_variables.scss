@@ -7,7 +7,7 @@ $footer-light: #6A6A6A;
 
 
 @mixin shadow {
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(39,39,39,0.53);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(39,39,39,0.53);
-    box-shadow: 10px 10px 5px 0px rgba(39,39,39,0.53);
+    -webkit-box-shadow: 7px 7px 7px 0px rgba(39,39,39,0.45);
+    -moz-box-shadow: 7px 7px 7px 0px rgba(39,39,39,0.45);
+    box-shadow: 7px 7px 5px 0px rgba(39,39,39,0.45);
 }
