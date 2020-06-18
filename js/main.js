@@ -9,3 +9,30 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => { //Vyberie vsetky h
         });
     });
   });
+
+
+// Display more
+const cards = document.querySelectorAll('.myCard');
+
+cards.forEach(card => {
+    const dots = card.querySelector('.dots');
+    const readMore = card.querySelector('.readMore');
+    const more = card.querySelector('.more');
+    const readLess = card.querySelector('.readLess')
+
+
+    readMore.addEventListener('click', ()=> {
+        readMore.classList.add('none');
+        more.classList.remove('none');
+        readLess.classList.remove('none');
+        dots.classList.add('none');
+    })
+
+    readLess.addEventListener('click', ()=> {
+        readMore.classList.remove('none');
+        more.classList.add('none');
+        readLess.classList.add('none');
+        dots.classList.remove('none');
+    })
+
+})

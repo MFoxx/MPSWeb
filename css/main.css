@@ -466,11 +466,28 @@ body {
   max-width: 300px;
   background-color: #fff;
   border-radius: 40px;
-  height: 500px;
+  height: 100%;
+  min-height: 500;
   -webkit-box-shadow: 7px 7px 7px 0px rgba(39, 39, 39, 0.45);
   box-shadow: 7px 7px 5px 0px rgba(39, 39, 39, 0.45);
   margin-bottom: 35px;
   margin-top: 10px;
+}
+
+.sectionIII .myCard .readMore, .sectionIII .myCard .readLess {
+  display: block;
+  text-decoration: underline;
+  padding-top: 3px;
+  font-style: italic;
+  padding-bottom: 10px;
+}
+
+.sectionIII .myCard .none {
+  display: none;
+}
+
+.sectionIII .myCard .more {
+  padding-bottom: 10px;
 }
 
 .sectionIII .myCard .image {
@@ -548,7 +565,7 @@ body {
   }
   .sectionIII .myCard {
     max-width: 500px;
-    height: 500px;
+    min-height: 500px;
   }
   .sectionIII .myCard p {
     text-align: center;

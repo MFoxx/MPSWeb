@@ -28,11 +28,27 @@
         // border: 1px solid green;
         background-color: #fff;
         border-radius: 40px;
-        height: 500px;
+        height: 100%;
+        min-height: 500;
         @include shadow;
         margin-bottom: 35px;
         margin-top: 10px;
 
+        .readMore, .readLess {
+            display: block;
+            text-decoration: underline;
+            padding-top: 3px;
+            font-style: italic;
+            padding-bottom: 10px;
+        }
+
+        .none {
+            display: none;
+        }
+
+        .more {
+            padding-bottom: 10px;
+        }
         
         .image{
             max-width: 300px;
@@ -117,7 +133,7 @@
 
         .myCard {
             max-width: 500px;
-            height: 500px;
+            min-height: 500px;
 
             p {
                 text-align: center;
