@@ -106,11 +106,8 @@ body {
   background: #FF0052;
 }
 
-html {
-  font-size: 16px;
-}
-
 header {
+  font-size: 16px;
   display: -webkit-box !important;
   display: -ms-flexbox !important;
   display: flex !important;
@@ -129,11 +126,11 @@ header {
   height: 95vh;
 }
 
-.navbar {
+header .navbar {
   background-color: none !important;
 }
 
-.nav-item {
+header .nav-item {
   margin-left: 20px;
 }
 
@@ -154,11 +151,11 @@ header div.title h2 {
   font-size: 3.5rem;
 }
 
-.red {
+header .red {
   color: #FF0052;
 }
 
-.a {
+header .a {
   font-size: 2rem;
 }
 
@@ -207,7 +204,7 @@ header div.social-media a i:hover {
   header div.title h2 {
     font-size: 2.5rem;
   }
-  .a {
+  header .a {
     font-size: 1.5rem;
   }
   header div.title button {
@@ -216,7 +213,7 @@ header div.social-media a i:hover {
 }
 
 @media (max-width: 993px) {
-  .nav-item {
+  header .nav-item {
     margin-left: 0px;
   }
 }
@@ -326,7 +323,9 @@ body {
 }
 
 @media only screen and (min-width: 825px) {
-  .container {
+  .myContainer {
+    padding-top: 35px;
+    padding-bottom: 35px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -337,23 +336,25 @@ body {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
-  .container .text {
+  .myContainer .myText {
     margin: auto;
     width: 50%;
   }
-  .container .text h2 {
+  .myContainer .myText h2 {
     padding-top: 0;
     margin-top: -20px;
   }
-  .container .text P {
+  .myContainer .myText P {
     padding-top: 0;
     margin-top: 20px;
   }
-  .container .img {
+  .myContainer .img {
     max-width: 50%;
   }
-  .container .img img {
+  .myContainer .img img {
     width: 90%;
     padding: 20px;
   }
@@ -444,7 +445,7 @@ body {
   margin-bottom: 20px;
 }
 
-.sectionIII .card {
+.sectionIII .myCard {
   margin: auto;
   max-width: 300px;
   background-color: #fff;
@@ -456,15 +457,15 @@ body {
   margin-top: 10px;
 }
 
-.sectionIII .card .image {
+.sectionIII .myCard .image {
   max-width: 300px;
 }
 
-.sectionIII .card .image img {
+.sectionIII .myCard .image img {
   width: 100%;
 }
 
-.sectionIII .card h3 {
+.sectionIII .myCard h3 {
   color: #00005E;
   font-family: "GeomanistMedium", arial, sans-serif;
   font-size: 28px;
@@ -474,11 +475,11 @@ body {
   text-align: center;
 }
 
-.sectionIII .card .divider {
+.sectionIII .myCard .divider {
   margin: auto;
 }
 
-.sectionIII .card p {
+.sectionIII .myCard p {
   padding-top: 15px;
   margin: auto;
   max-width: 275px;
@@ -507,7 +508,7 @@ body {
     margin: 0;
     margin-left: 45px;
   }
-  .sectionIII .row {
+  .sectionIII .myRow {
     max-width: 1080px;
     margin: auto;
     display: -webkit-box;
@@ -517,7 +518,7 @@ body {
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
   }
-  .sectionIII .row .card {
+  .sectionIII .myRow .myCard {
     margin-top: 35px;
   }
 }
@@ -526,14 +527,14 @@ body {
   .sectionIII h3 {
     font-size: 65px;
   }
-  .sectionIII .row {
+  .sectionIII .myRow {
     max-width: 1300px;
   }
-  .sectionIII .card {
+  .sectionIII .myCard {
     max-width: 500px;
     height: 500px;
   }
-  .sectionIII .card p {
+  .sectionIII .myCard p {
     text-align: center;
   }
 }
@@ -794,7 +795,7 @@ body {
   .sectionIV form {
     max-width: 800px;
   }
-  .sectionIV form .row {
+  .sectionIV form .myRow {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -802,7 +803,7 @@ body {
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
-  .sectionIV form .row .item {
+  .sectionIV form .myRow .item {
     margin: 0;
     width: 45%;
   }
@@ -967,7 +968,7 @@ footer .right .social .icon a:hover {
 }
 
 @media only screen and (min-width: 720px) {
-  footer .container {
+  footer .myContainer {
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;

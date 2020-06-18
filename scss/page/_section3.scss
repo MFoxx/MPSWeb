@@ -22,7 +22,7 @@
         }
 
 
-    .card {
+    .myCard {
         margin: auto;
         max-width: 300px;
         // border: 1px solid green;
@@ -92,13 +92,13 @@
             }
         }
         
-        .row {
+        .myRow {
             max-width: 1080px;
             margin: auto;
             display: flex;
             justify-content: space-evenly;
 
-            .card {
+            .myCard {
                 margin-top: 35px;
             }
         }
@@ -111,11 +111,11 @@
             font-size: 65px;
         }
         
-        .row {
+        .myRow {
             max-width: 1300px;
         }
 
-        .card {
+        .myCard {
             max-width: 500px;
             height: 500px;
 

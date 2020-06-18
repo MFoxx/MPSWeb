@@ -1,11 +1,8 @@
 @import './../variables';
 @import './../config';
 
-html {
-    font-size: 16px;
-}
-
 header {
+    font-size: 16px;
     display: flex !important;
     flex-direction: column;
     justify-content: space-between;
@@ -15,99 +12,105 @@ header {
     background-repeat: no-repeat;
     text-align: center;
     height: 95vh;
-}
-
-.navbar {
-    background-color: none !important;
-}
-
-.nav-item {
-    margin-left: 20px;
-}
-
-header div.title {
-    color: #ffffff;
-    font-family: $bold;
-}
-
-header div.title p {
-    font-size: 2rem;
-}
-
-header div.title h1 {
-    font-size: 3.5rem;
-}
-
-header div.title h2 {
-    font-size: 3.5rem;
-}
-
-.red {
-    color: $red;
-}
-
-.a {
-    font-size: 2rem;
-}
-
-header div.title button {
-    font-size: 1.8rem;
-    padding: 5px 30px;
-    margin: 50px 0;
-    font-family: $bold;
-    border: 2px solid $red;
-    color: $red;
-    background: none;
-    border-radius: 15px;
-    transition: all .5s;
-}
-
-header div.title button:hover {
-    background-color: $red;
-    color: #ffffff;
-}
-
-header div.social-media {
-    margin-bottom: 20px;
-}
-
-header div.social-media a {
-    color: #ffffff;
-    margin: 0px 5px;
-}
-
-header div.social-media a i {
-    font-size: 1.5rem;
-}
-
-header div.social-media a i:hover {
-    color: $red;
-}
-
-@media(max-width: 600px) {
-    header div.title p {
-        font-size: 1.5rem;
-    }
-
-    header div.title h1 {
-        font-size: 2.5rem;
-    }
     
-    header div.title h2 {
-        font-size: 2.5rem;
+    .navbar {
+        background-color: none !important;
+    }
+
+    .nav-item {
+        margin-left: 20px;
+    }
+
+    div.title {
+        color: #ffffff;
+        font-family: $bold;
+    }
+
+    div.title p {
+        font-size: 2rem;
+    }
+
+    div.title h1 {
+        font-size: 3.5rem;
+    }
+
+    div.title h2 {
+        font-size: 3.5rem;
+    }
+
+    .red {
+        color: $red;
     }
 
     .a {
+        font-size: 2rem;
+    }
+
+    div.title button {
+        font-size: 1.8rem;
+        padding: 5px 30px;
+        margin: 50px 0;
+        font-family: $bold;
+        border: 2px solid $red;
+        color: $red;
+        background: none;
+        border-radius: 15px;
+        transition: all .5s;
+    }
+
+    div.title button:hover {
+        background-color: $red;
+        color: #ffffff;
+    }
+
+    div.social-media {
+        margin-bottom: 20px;
+    }
+
+    div.social-media a {
+        color: #ffffff;
+        margin: 0px 5px;
+    }
+
+    div.social-media a i {
         font-size: 1.5rem;
     }
 
-    header div.title button {
-        font-size: 1.5rem;
+    div.social-media a i:hover {
+        color: $red;
+    }
+}
+
+@media(max-width: 600px) {
+
+    header {
+        div.title p {
+            font-size: 1.5rem;
+        }
+    
+        div.title h1 {
+            font-size: 2.5rem;
+        }
+        
+        div.title h2 {
+            font-size: 2.5rem;
+        }
+    
+        .a {
+            font-size: 1.5rem;
+        }
+    
+        div.title button {
+            font-size: 1.5rem;
+        }
+
     }
 }
 
 @media(max-width: 993px) {
-    .nav-item {
-        margin-left: 0px;
+    header{
+        .nav-item {
+            margin-left: 0px;
+        }
     }
 }

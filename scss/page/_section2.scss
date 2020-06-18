@@ -44,6 +44,7 @@
 
 @media only screen and (min-width: 500px) {
     .sectionII {
+
         h2{ 
             font-size: 50px;
         }
@@ -59,13 +60,17 @@
 
 
 @media only screen and (min-width: 825px) {
-    .container {
+    .myContainer {
+        padding-top: 35px;
+        padding-bottom: 35px;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
+        padding-top: 20px;
+        padding-bottom: 20px;
 
         
-         .text {
+        .myText {
             margin: auto;
             width: 50%;
             
