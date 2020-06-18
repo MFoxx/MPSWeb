@@ -497,7 +497,7 @@ body {
   background-color: #D1F3FE;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 950px) {
   .sectionIII .title h2 {
     font-size: 60px;
     text-align: left;
