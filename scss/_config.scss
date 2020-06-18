@@ -2,14 +2,16 @@
 
 @font-face {
     font-family: 'GeomanistBlack';
-    src: url('./../css/fonts/Geomanist-Black.eot'),
+    src: url('./../css/fonts/Geomanist-Black.eot');
+    src: url('./../css/fonts/Geomanist-Black.eot?#iefix') format('embedded-opentype'),
          url('./../css/fonts/Geomanist-Black.woff2') format('woff2'), /* Super Modern Browsers */
          url('./../css/fonts/Geomanist-Black.woff') format('woff'), /* Pretty Modern Browsers */
          url('./../css/fonts/Geomanist-Black.ttf')  format('truetype'), /* Safari, Android, iOS */
 }
 @font-face {
     font-family: 'GeomanistBold';
-    src: url('./../css/fonts/Geomanist-Bold.eot'),
+    src: url('./../css/fonts/Geomanist-Bold.eot');
+    src: url('./../css/fonts/Geomanist-Bold.eot?#iefix') format('embedded-opentype'),
          url('./../css/fonts/Geomanist-Bold.woff2') format('woff2'), /* Super Modern Browsers */
          url('./../css/fonts/Geomanist-Bold.woff') format('woff'), /* Pretty Modern Browsers */
          url('./../css/fonts/Geomanist-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
@@ -17,7 +19,8 @@
 
 @font-face {
     font-family: 'GeomanistBook';
-    src: url('./../css/fonts/Geomanist-Book.eot'),
+    src: url('./../css/fonts/Geomanist-Book.eot');
+    src: url('./../css/fonts/Geomanist-Book.eot?#iefix') format('embedded-opentype'),
          url('./../css/fonts/Geomanist-Book.woff2') format('woff2'), /* Super Modern Browsers */
          url('./../css/fonts/Geomanist-Book.woff') format('woff'), /* Pretty Modern Browsers */
          url('./../css/fonts/Geomanist-Book.ttf')  format('truetype'), /* Safari, Android, iOS */
@@ -25,7 +28,8 @@
 
 @font-face {
     font-family: 'GeomanistExtraLight';
-    src: url('./../css/fonts/Geomanist-ExtraLight.eot'),
+    src: url('./../css/fonts/Geomanist-ExtraLight.eot');
+    src: url('./../css/fonts/Geomanist-ExtraLight.eot?#iefix') format('embedded-opentype'),
          url('./../css/fonts/Geomanist-ExtraLight.woff2') format('woff2'), /* Super Modern Browsers */
          url('./../css/fonts/Geomanist-ExtraLight.woff') format('woff'), /* Pretty Modern Browsers */
          url('./../css/fonts/Geomanist-ExtraLight.ttf')  format('truetype'), /* Safari, Android, iOS */
@@ -33,7 +37,8 @@
 
 @font-face {
     font-family: 'GeomanistLight';
-    src: url('./../css/fonts/Geomanist-Light.eot'),
+    src: url('./../css/fonts/Geomanist-Light.eot');
+    src: url('./../css/fonts/Geomanist-Light.eot?#iefix') format('embedded-opentype'),
          url('./../css/fonts/Geomanist-Light.woff2') format('woff2'), /* Super Modern Browsers */
          url('./../css/fonts/Geomanist-Light.woff') format('woff'), /* Pretty Modern Browsers */
          url('./../css/fonts/Geomanist-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
@@ -41,7 +46,8 @@
 
 @font-face {
     font-family: 'GeomanistMedium';
-    src: url('./../css/fonts/Geomanist-Medium.eot'),
+    src: url('./../css/fonts/Geomanist-Medium.eot');
+    src: url('./../css/fonts/Geomanist-Medium.eot?#iefix') format('embedded-opentype'),
          url('./../css/fonts/Geomanist-Medium.woff2') format('woff2'), /* Super Modern Browsers */
          url('./../css/fonts/Geomanist-Medium.woff') format('woff'), /* Pretty Modern Browsers */
          url('./../css/fonts/Geomanist-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
@@ -49,7 +55,8 @@
 
 @font-face {
     font-family: 'GeomanistRegular';
-    src: url('./../css/fonts/Geomanist-Regular.eot'),
+    src: url('./../css/fonts/Geomanist-Regular.eot');
+    src: url('./../css/fonts/Geomanist-Regular.eot?#iefix') format('embedded-opentype'),
          url('./../css/fonts/Geomanist-Regular.woff2') format('woff2'), /* Super Modern Browsers */
          url('./../css/fonts/Geomanist-Regular.woff') format('woff'), /* Pretty Modern Browsers */
          url('./../css/fonts/Geomanist-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
@@ -57,7 +64,8 @@
 
 @font-face {
     font-family: 'GeomanisUltra';
-    src: url('./../css/fonts/Geomanist-Ultra.eot'),
+    src: url('./../css/fonts/Geomanist-Ultra.eot?');
+    src: url('./../css/fonts/Geomanist-Ultra.eot?#iefix') format('embedded-opentype'),
          url('./../css/fonts/Geomanist-Ultra.woff2') format('woff2'), /* Super Modern Browsers */
          url('./../css/fonts/Geomanist-Ultra.woff') format('woff'), /* Pretty Modern Browsers */
          url('./../css/fonts/Geomanist-Ultra.ttf')  format('truetype'), /* Safari, Android, iOS */
