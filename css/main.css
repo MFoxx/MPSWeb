@@ -512,6 +512,7 @@ body {
   padding-top: 3px;
   font-style: italic;
   padding-bottom: 10px;
+  cursor: pointer;
 }
 
 .sectionIII .myCard .none {
