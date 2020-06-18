@@ -1,2 +1,100 @@
 @import './../variables';
 @import './../config';
+
+
+footer {
+   background: $footer-bg;
+
+   .left {
+       h2 {
+           text-align: center;
+           margin: 0;
+           color: white;
+           padding: 25px 25px 10px;
+           font-family: $book;
+           font-size: 32px;
+       }
+
+       .divider {
+           margin: auto;
+       }
+
+       .social {
+           padding-top: 7px;
+           margin: auto;
+           text-align: center;
+           .icon {
+               padding-right: 4px;
+               display: inline;
+               font-size: 30px;
+                
+                a{
+                    color: #fff;
+                    text-decoration: none;
+                    transition: .4s;
+
+                    &:hover {
+                        color: $red;
+                    }
+                }
+           }
+       }
+   }
+
+   .right {
+        p {
+            margin: 0;
+            color: $footer-light;
+            font-family: $bold;
+            text-align: center;
+            padding-top: 40px;
+            font-size: 24px;
+            padding-right: 25px;
+
+            a {
+                text-decoration: none;
+                color: $footer-light;
+                transition: .4s;
+
+                &:hover {
+                    color: $red;
+                }
+            }
+        }
+
+        .social {
+            padding-top: 7px;
+            margin: auto;
+            text-align: center;
+            padding-bottom: 20px;
+
+            .icon {
+                padding-right: 4px;
+                display: inline;
+                font-size: 30px;
+                
+                a{
+                    color: $footer-light;
+                    text-decoration: none;
+                    transition: .4s;
+
+                    &:hover {
+                        color: $red;
+                    }
+                }
+            }
+       }
+   }
+}
+
+
+@media only screen and (min-width: 720px) {
+    footer {
+        .container {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    }
+}

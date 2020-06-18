@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="sk">
+
 <head>
     <!-- SEO -->
     <meta charset="UTF-8">
@@ -7,12 +8,14 @@
     <title>Počúvame mladých</title>
     <!-- CSS -->
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="shortcut icon" href="./img/icon.png" type="image/x-icon">
     <!-- BOOTSTRAP -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <!-- FONTS -->
     <!-- FRAMEWORKS/LIBRARIES -->
     <script src="https://kit.fontawesome.com/3b88d9aaaa.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <!-- LANDING PAGE -->
     <header>
@@ -54,9 +57,163 @@
           </div>
     </header>
     <!-- SECTION II - O nas -->
+    <section class="sectionII">
+        <div class="container">
+            <div class="text">
+                <h2>O nás</h2>
+                <div class="divider"></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam doloremque debitis iste facere
+                    incidunt
+                    assumenda praesentium corporis nulla sint ullam maxime in nostrum aliquid voluptatem delectus
+                    numquam
+                    magni
+                    vitae temporibus architecto blanditiis minus dolorem eum, ad tenetur. Corrupti, ipsam? Molestiae?
+                </p>
+            </div>
+
+            <div class="img">
+                <img src="./img/jan-vozarik.jpg" alt="Ján Vozárik - Mladí Progresívci">
+            </div>
+        </div>
+    </section>
     <!-- SECTION III - Predsednictvo -->
+    <section class="sectionIII">
+        <div class="title">
+            <h2>Predsedníctvo</h2>
+            <div class="divider"></div>
+        </div>
+        <div class="flex">
+            <div class="row">
+                <!-- NATALIA -->
+                <div class="card">
+                    <div class="image">
+                        <img src="./img/naty.png" alt="Natália Heriban - Mladí progresívci">
+                    </div>
+                    <h3>Natália Heriban</h3>
+                    <div class="divider"></div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dolor dolorum voluptas at voluptates fuga
+                        commodi quibusdam in dolores repudiandae.</p>
+                </div>
+                <!-- DAVID -->
+                <div class="card">
+                    <div class="image">
+                        <img src="./img/david.png" alt="Dávid Dej - Mladí progresívci">
+                    </div>
+                    <h3>Dávid Dej</h3>
+                    <div class="divider"></div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dolor dolorum voluptas at voluptates fuga
+                        commodi quibusdam in dolores repudiandae.</p>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Alexandra -->
+                <div class="card">
+                    <div class="image">
+                        <img src="./img/alex.png" alt="Alexandra Gaherová - Mladí progresívci">
+                    </div>
+                    <h3>Alexandra Gaherová</h3>
+                    <div class="divider"></div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dolor dolorum voluptas at voluptates fuga
+                        commodi quibusdam in dolores repudiandae.</p>
+                </div>
+                <!-- Janka -->
+                <div class="card">
+                    <div class="image">
+                        <img src="./img/janka.png" alt="Jana Velická - Mladí progresívci">
+                    </div>
+                    <h3>Janka Velická</h3>
+                    <div class="divider"></div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dolor dolorum voluptas at voluptates fuga
+                        commodi quibusdam in dolores repudiandae.</p>
+                </div>
+                <!-- Domonik -->
+                <div class="card" id='lastCard'>
+                    <div class="image">
+                        <img src="./img/dom.png" alt="Dominik Devečka - Mladí progresívci">
+                    </div>
+                    <h3>Dominik Devečka</h3>
+                    <div class="divider"></div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dolor dolorum voluptas at voluptates fuga
+                        commodi quibusdam in dolores repudiandae.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- SECTION IV - Pridajte sa -->
+    <section class="sectionIV">
+        <div class="title">
+            <h2>Pridajte sa k nám</h2>
+            <div class="divider"></div>
+        </div>
+        <div class="contact">
+            <form action="POST">
+                <div class="row">
+                    <div class="item">
+                        <label for="name">Meno</label>
+                        <input type="text" name='name'>
+                    </div>
+                    <div class="item">
+                        <label for="surname">Priezvisko</label>
+                        <input type="text" name='surname'>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="item">
+                        <label for="email">Email</label>
+                        <input type="email" name='email'>
+                    </div>
+                    <div class="item">
+                        <label for="date">Dátum narodenia</label>
+                        <input type="date" name='date' id='date' max='2005-01-01'>
+                    </div>
+                </div>
+                <div class="item">
+                    <label for="motivacny">Motivačný list</label>
+                    <textarea name="motivacny"></textarea>
+                </div>
+                <button type="submit">
+                    Odoslať
+                </button>
+            </form>
+
+            <i class="far fa-file-alt"></i>
+        </div>
+    </section>
     <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="left">
+                <h2>Mladí progresívci</h2>
+                <div class="divider"></div>
+                <div class="social">
+                <div class="icon">
+                    <a href="https://www.instagram.com/mladi_progresivci/" target='_blank'><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="icon">
+                    <a href="https://www.facebook.com/mladiprogresivci" target='_blank'><i class="fab fa-facebook-square"></i></a>
+                </div>
+                <div class="icon">
+                    <a href="https://www.facebook.com/groups/486196192113579" target='_blank'><i class="fas fa-users"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <p>Designed by <a href='https://www.ggstudio.digital' target='_blank'>G&G Studio</a></p>
+            <div class="social">
+                <div class="icon">
+                    <a href="https://wwww.ggstudio.digital" target='_blank'><i class="fa fa-globe"></i></a>
+                </div>
+                <div class="icon">
+                    <a href="https://www.instagram.com/ggstudiodigital/" target='_blank'><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="icon">
+                    <a href="https://www.behance.net/gg-studio" target='_blank'><i class="fab fa-behance" ></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </footer>
 
     <!-- SCRIPTS -->
     <script src="./js/main.js"></script>
@@ -64,4 +221,5 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
+
 </html>
