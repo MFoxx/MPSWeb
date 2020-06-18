@@ -17,8 +17,20 @@ header {
         background-color: none !important;
     }
 
+    .navbar img {
+        width: 100px;
+    }
+
     .nav-item {
         margin-left: 20px;
+    }
+
+    .nav-link {
+        transition: all .5s;
+    }
+
+    .nav-link:hover {
+        color: $red !important;
     }
 
     div.title {
@@ -56,6 +68,7 @@ header {
         background: none;
         border-radius: 15px;
         transition: all .5s;
+        outline: none;
     }
 
     div.title button:hover {
@@ -73,7 +86,8 @@ header {
     }
 
     div.social-media a i {
-        font-size: 1.5rem;
+        font-size: 2rem;
+        transition: all .5s;
     }
 
     div.social-media a i:hover {

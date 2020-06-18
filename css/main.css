@@ -130,8 +130,21 @@ header .navbar {
   background-color: none !important;
 }
 
+header .navbar img {
+  width: 100px;
+}
+
 header .nav-item {
   margin-left: 20px;
+}
+
+header .nav-link {
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+header .nav-link:hover {
+  color: #FF0052 !important;
 }
 
 header div.title {
@@ -170,6 +183,7 @@ header div.title button {
   border-radius: 15px;
   -webkit-transition: all .5s;
   transition: all .5s;
+  outline: none;
 }
 
 header div.title button:hover {
@@ -187,7 +201,9 @@ header div.social-media a {
 }
 
 header div.social-media a i {
-  font-size: 1.5rem;
+  font-size: 2rem;
+  -webkit-transition: all .5s;
+  transition: all .5s;
 }
 
 header div.social-media a i:hover {
