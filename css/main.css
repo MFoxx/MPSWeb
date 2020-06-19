@@ -139,7 +139,7 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
-  height: 95vh;
+  height: 100vh;
 }
 
 header .navbar {
@@ -245,6 +245,9 @@ header div.social-media a i:hover {
 }
 
 @media (max-width: 993px) {
+  header {
+    height: 500px;
+  }
   header .nav-item {
     margin-left: 0px;
   }

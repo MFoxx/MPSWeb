@@ -11,7 +11,7 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
-    height: 95vh;
+    height: 100vh;
     
     .navbar {
         background-color: none !important;
@@ -123,6 +123,7 @@ header {
 
 @media(max-width: 993px) {
     header{
+        height: 500px;
         .nav-item {
             margin-left: 0px;
         }
