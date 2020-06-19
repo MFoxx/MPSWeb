@@ -246,7 +246,7 @@ header div.social-media a i:hover {
 
 @media (max-width: 993px) {
   header {
-    height: 500px;
+    height: 600px;
   }
   header .nav-item {
     margin-left: 0px;
