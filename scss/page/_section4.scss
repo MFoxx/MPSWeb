@@ -58,10 +58,11 @@
                     position: relative;
                     font-size: large;
                 }
+                // Light glow on input
                 &:focus{
                     transition: .3s;
                     outline: none; 
-                    box-shadow: 0 0 5px rgb(255, 255, 255);
+                    box-shadow: 0 0 4px rgb(255, 255, 255);
                 }
             }
 
@@ -162,6 +163,11 @@
 
             &:hover {
                 background-color: $dark-red;
+                transition: .3s;
+                outline: none; 
+                box-shadow: 0 0 5px rgb(255, 255, 255);
+            }
+            &:focus{
             }
         }
     }

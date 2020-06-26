@@ -7,7 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property='og:image' content="./img/og-image.jpg">
     <title>Počúvame mladých - mladí progresívci</title>
+    <meta name="description" content=" Chceme spájať mladých ľudí, ktorí chcú šíriť hodnoty slobody a tolerancie, aby nimi prispeli k zmene
+    na Slovensku">
+    <meta name=”robots” content="index, follow">
+
     <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./css/main.css">
     <link rel="shortcut icon" href="./img/icon.png" type="image/x-icon">
     <!-- BOOTSTRAP -->
@@ -23,7 +28,7 @@
     <header id="header">
         <!-- Nav -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-none">
-            <img src="./../../img/logo.png" alt="">
+            <img src="./../../img/logo.png" alt="mladi progresivci logo">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -43,7 +48,7 @@
             </div>
         </nav>
 
-        <div class="title">
+        <div class="title" data-aos="fade-down">
             <p>Sme</p>
             <h1>mladí <span class="red">progresívci</span></h1>
             <h2> <span class="a">a</span> mladé <span class="red">progresívkine</span></h2>
@@ -61,18 +66,19 @@
     <section class="sectionII" id="sectionII">
         <div class="myContainer">
             <div class="myText">
-                <h2>O nás</h2>
-                <div class="divider"></div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam doloremque debitis iste facere
-                    incidunt
-                    assumenda praesentium corporis nulla sint ullam maxime in nostrum aliquid voluptatem delectus
-                    numquam
-                    magni
-                    vitae temporibus architecto blanditiis minus dolorem eum, ad tenetur. Corrupti, ipsam? Molestiae?
+                <h2 data-aos="fade-down">O nás</h2>
+                <div class="divider" data-aos="fade-up"></div>
+                <p data-aos="fade-right">Centristické a proeurópske hnutie Progresívne Slovensko sa rozhodlo mladých
+                    ľudí podporovať nie len
+                    slovami, ale aj činmi. Rozhodlo sa nám dať priestor, aby sme aj my mladí, mali možnosť zapojiť sa do
+                    premeny našej krajiny - na modernú a progresívnu krajinu <br>
+                    <br>
+                    Chceme spájať mladých ľudí, ktorí chcú šíriť hodnoty slobody a tolerancie, aby nimi prispeli k zmene
+                    na Slovensku
                 </p>
             </div>
 
-            <div class="img">
+            <div class="img" data-aos="fade-up">
                 <img src="./img/jan-vozarik.jpg" alt="Ján Vozárik - Mladí Progresívci">
             </div>
         </div>
@@ -80,13 +86,13 @@
     <!-- SECTION III - Predsednictvo -->
     <section class="sectionIII" id="sectionIII">
         <div class="title">
-            <h2>Predsedníctvo</h2>
-            <div class="divider"></div>
+            <h2 data-aos="fade-down">Predsedníctvo</h2>
+            <div class="divider" data-aos="fade-up"></div>
         </div>
         <div class="flex">
             <div class="myRow">
                 <!-- NATALIA -->
-                <div class="myCard">
+                <div class="myCard" data-aos="flip-up">
                     <div class="image">
                         <img src="./img/naty.png" alt="Natália Heriban - Mladí progresívci">
                     </div>
@@ -101,13 +107,13 @@
                             ani som netušila ako veľmi mi to dá. Dalo mi to komunitu ľudí, v ktorej sa cítim bezpečne a
                             prijatá. Som rada, že sme ju mohli založiť a že som našou spolupredsedníčkou, spoločne s
                             Dávidom.
-                            
+
                         </span>
                         <span class="readLess none">Zobraziť menej</span>
                     </p>
                 </div>
                 <!-- DAVID -->
-                <div class="myCard">
+                <div class="myCard" data-aos="flip-up">
                     <div class="image">
                         <img src="./img/david.png" alt="Dávid Dej - Mladí progresívci">
                     </div>
@@ -130,7 +136,7 @@
             </div>
             <div class="myRow">
                 <!-- Alexandra -->
-                <div class="myCard">
+                <div class="myCard" data-aos="flip-up">
                     <div class="image">
                         <img src="./img/alex.png" alt="Alexandra Gaherová - Mladí progresívci">
                     </div>
@@ -150,7 +156,7 @@
                     </p>
                 </div>
                 <!-- Janka -->
-                <div class="myCard">
+                <div class="myCard" data-aos="flip-up">
                     <div class="image">
                         <img src="./img/janka.png" alt="Jana Velická - Mladí progresívci">
                     </div>
@@ -172,7 +178,7 @@
                     </p>
                 </div>
                 <!-- Domonik -->
-                <div class="myCard" id='lastCard'>
+                <div class="myCard" id='lastCard' data-aos="flip-up">
                     <div class="image">
                         <img src="./img/dom.png" alt="Dominik Devečka - Mladí progresívci">
                     </div>
@@ -196,10 +202,10 @@
     <!-- SECTION IV - Pridajte sa -->
     <section class="sectionIV" id="sectionIV">
         <div class="title">
-            <h2>Pridajte sa k nám</h2>
-            <div class="divider"></div>
+            <h2 data-aos="fade-down">Pridajte sa k nám</h2>
+            <div class="divider" data-aos="fade-up"></div>
         </div>
-        <div class="contact">
+        <div class="contact" data-aos="zoom-in">
             <form method="POST" action='https://formspree.io/xgenzaea'>
                 <div class="myRow">
                     <div class="item">
@@ -236,7 +242,7 @@
     <!-- FOOTER -->
     <footer>
         <div class="myContainer">
-            <div class="left">
+            <div class="left" data-aos="fade-down">
                 <h2>Mladí progresívci</h2>
                 <div class="divider"></div>
                 <div class="social">
@@ -254,7 +260,7 @@
                     </div>
                 </div>
             </div>
-            <div class="right">
+            <div class="right" data-aos="fade-down">
                 <p>Designed by <a href='https://www.ggstudio.digital' target='_blank'>G&G Studio</a></p>
                 <div class="social">
                     <div class="icon">
@@ -273,6 +279,7 @@
     </footer>
 
     <!-- SCRIPTS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="./js/main.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

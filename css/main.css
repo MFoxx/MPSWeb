@@ -52,6 +52,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: "GeomanistRegular", arial, sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .divider {
@@ -114,6 +116,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: "GeomanistRegular", arial, sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .divider {
@@ -307,6 +311,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: "GeomanistRegular", arial, sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .divider {
@@ -467,6 +473,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: "GeomanistRegular", arial, sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .divider {
@@ -662,6 +670,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: "GeomanistRegular", arial, sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .divider {
@@ -735,8 +745,8 @@ body {
   -webkit-transition: .3s;
   transition: .3s;
   outline: none;
-  -webkit-box-shadow: 0 0 5px white;
-          box-shadow: 0 0 5px white;
+  -webkit-box-shadow: 0 0 4px white;
+          box-shadow: 0 0 4px white;
 }
 
 .sectionIV form .item input[type="date"] {
@@ -834,6 +844,11 @@ body {
 
 .sectionIV form button:hover {
   background-color: #85012b;
+  -webkit-transition: .3s;
+  transition: .3s;
+  outline: none;
+  -webkit-box-shadow: 0 0 5px white;
+          box-shadow: 0 0 5px white;
 }
 
 .sectionIV i {
@@ -959,6 +974,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: "GeomanistRegular", arial, sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .divider {
